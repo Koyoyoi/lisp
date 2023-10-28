@@ -12,7 +12,7 @@
     > (sum-of-square-smaller-two 2 2 2)  
     8  
     > ,exit   
-$
+    $
 ## .scm   
 ```scheme
 (define (sum-of-square a b)  
