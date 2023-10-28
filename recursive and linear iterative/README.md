@@ -1,13 +1,13 @@
 # recursive and linear iterative
-Refer to exercise 1.11 but the formula is changed to  
-f(0) = 7  
-f(1) = 3  
-f(2) = 5  
-f(n) = -f(n-1) + f(n-2) + f(n-3) if n ≥ 3 and n %3 == 0  
-f(n) = f(n-1) - f(n-2) + f(n-3) if n ≥ 3 and n %3 == 1  
-f(n) = -f(n-1) + f(n-2) - f(n-3) if n ≥ 3 and n %3 == 2  
-Note that you have to write two procedures. One is written in recursive way and another in linear iterative way.   
-You can use (remainder n m) to compute the remainder of n divided by m.  
++ Refer to exercise 1.11 but the formula is changed to  
+  f(0) = 7  
+  f(1) = 3  
+  f(2) = 5  
+  f(n) = -f(n-1) + f(n-2) + f(n-3) if n ≥ 3 and n %3 == 0  
+  f(n) = f(n-1) - f(n-2) + f(n-3) if n ≥ 3 and n %3 == 1  
+  f(n) = -f(n-1) + f(n-2) - f(n-3) if n ≥ 3 and n %3 == 2  
++ Note that you have to write two procedures. One is written in recursive way and another in linear iterative way.   
++ You can use (remainder n m) to compute the remainder of n divided by m.  
 ## For example:
       $ scheme48
       > ,load ex4.scm
