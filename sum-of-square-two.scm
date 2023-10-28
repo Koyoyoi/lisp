@@ -1,6 +1,0 @@
-(define (sum-of-square a b)
-  (+ (* a a) (* b b)))
-(define (sun-of-square-smaller-two x y z)
-  (cond ((and (> x y) (> x z)) (sum-of-square y z))
-        ((and (> y x) (> y z)) (sum-of-square x z))
-        (else (sum-of-square x y))))
