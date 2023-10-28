@@ -1,6 +1,6 @@
 # Sum of square two
-Figure out the sum of squares of the smaller two arguments   
-Write a procedure named 'sum-of-square-smaller-two' which accepts three arguments and figures out the sum of squares of the smaller two of the arguments.
++ Figure out the sum of squares of the smaller two arguments   
+* Write a procedure named 'sum-of-square-smaller-two' which accepts three arguments and figures out the sum of squares of the smaller two of the arguments.
 #
 \$ scheme48  
 \> ,load ex2-sum-square-smaller-two.scm  
@@ -12,7 +12,8 @@ Write a procedure named 'sum-of-square-smaller-two' which accepts three argument
 \> (sum-of-square-smaller-two 2 2 2)  
 8  
 \> ,exit   
-\$   
+\$
+# lisp   
 ```scheme
 (define (sum-of-square a b)  
   (+ (* a a) (* b b)))  
