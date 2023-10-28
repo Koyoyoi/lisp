@@ -1,4 +1,4 @@
-#figure out the sum of squares of the smaller two arguments   
+Figure out the sum of squares of the smaller two arguments   
  Write a procedure named 'sum-of-square-smaller-two' which accepts three arguments and figures out the sum of squares of the smaller two of the arguments.
 \$ scheme48  
 \> ,load ex2-sum-square-smaller-two.scm  
