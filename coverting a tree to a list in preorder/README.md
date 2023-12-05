@@ -1,6 +1,7 @@
 # converting a tree to a list in preorder
 + A tree with a single node is like: '(a).
 + A tree with root 'a' and two children 'b' 'c' is like: '(a (b) (c)). And more examples:
+  
             a
           / | \      ==> (a (b) (c) (d))
          b  c  d
